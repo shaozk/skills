@@ -55,7 +55,7 @@ for f in "${SKILL_FILES[@]}"; do
 
   # 4. 已登记进索引
   if ! grep -q "| $name |" "$INDEX"; then
-    echo "  [FAIL] $name: 未登记在 $INDEX（应有一行 | $name | ...）" >&2
+    echo "  [FAIL] $name: 未登记在 ${INDEX}（应有一行 | $name | ...）" >&2
     ok=0
   fi
 
