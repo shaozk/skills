@@ -15,6 +15,16 @@ scripts/
 └── validate.sh            # 校验 skill 是否符合仓库约定
 ```
 
+## 技能列表
+
+| 名称 | 分类 | 用途 |
+| --- | --- | --- |
+| no-code | meta | 运行命令但不进行任何代码或文件改动，只返回文本结果 |
+| commit | git | 自动暂存并提交代码，根据修改内容自动生成 commit message |
+| co-auth | git | 提交时自动检测当前 agent，在 commit message 底部追加对应的 Co-Authored-By 署名 |
+
+完整信息（工具兼容性、来源等）见 [`skills/INDEX.md`](./skills/INDEX.md)，新增 skill 时两处需同步更新。
+
 ## 快速上手
 
 ```bash
