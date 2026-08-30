@@ -18,3 +18,4 @@
 | co-auth | git | both | 自研 | 提交时自动检测当前 agent，在 commit message 底部追加对应的 Co-Authored-By 署名 |
 | trans | translation | both | 自研 | 把英文 Markdown 文档翻译成中文，保留格式与代码块 |
 | read | learning | both | 自研 | 通读项目并生成七段式中文学习文档 READ.md |
+| update-readme | docs | both | 自研 | 根据提交信息与代码现状更新 README.md，没有则创建 |
